@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="7fV-wy-ESK" customClass="AppointmentsuccessTableCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="u11" translatesAutoresizingMaskIntoConstraints="NO" id="JnF-n0-MbO">
+                    <rect key="frame" x="113" y="30" width="150" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="MTN-Bg-1DS"/>
+                        <constraint firstAttribute="width" constant="150" id="xfN-aY-CLI"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您已成功预约北京市仁和医院泌尿一科门诊的主任医师,预约识别码是:【20845200】,就诊日期是2015-07-24上午,取号时间上午10：00以前取号,取号地点:医院11号窗口挂号取号。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9rp-o1-rdj">
+                    <rect key="frame" x="20" y="200" width="335" height="102"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="【温馨提示】请点击 q.114menhu.com 安装114客户端，实现电话、网络同时挂号，提高成功率。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9SQ-eF-zrD">
+                    <rect key="frame" x="20" y="307" width="335" height="61"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fEH-Ws-HOk">
+                    <rect key="frame" x="25" y="408" width="150" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="GiS-jb-ilS"/>
+                    </constraints>
+                    <state key="normal" title="返回首页" backgroundImage="link_button_02"/>
+                    <connections>
+                        <action selector="backToHome:" destination="7fV-wy-ESK" eventType="touchUpInside" id="a7p-ET-XWw"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="41Y-pF-v9v">
+                    <rect key="frame" x="200" y="408" width="150" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="lzM-YI-ENw"/>
+                    </constraints>
+                    <state key="normal" title="个人中心" backgroundImage="link_button_02"/>
+                    <connections>
+                        <action selector="personCenter:" destination="7fV-wy-ESK" eventType="touchUpInside" id="BEm-a1-rZt"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="fEH-Ws-HOk" firstAttribute="leading" secondItem="7fV-wy-ESK" secondAttribute="leading" constant="25" id="9I8-bG-iVu"/>
+                <constraint firstItem="JnF-n0-MbO" firstAttribute="centerX" secondItem="7fV-wy-ESK" secondAttribute="centerX" id="CBn-cL-0m2"/>
+                <constraint firstAttribute="trailing" secondItem="9SQ-eF-zrD" secondAttribute="trailing" constant="20" id="Ffc-sk-Xfi"/>
+                <constraint firstItem="9rp-o1-rdj" firstAttribute="leading" secondItem="7fV-wy-ESK" secondAttribute="leading" constant="20" id="IMh-xB-awx"/>
+                <constraint firstItem="fEH-Ws-HOk" firstAttribute="top" secondItem="9SQ-eF-zrD" secondAttribute="bottom" constant="40" id="PlQ-Y9-roS"/>
+                <constraint firstItem="41Y-pF-v9v" firstAttribute="top" secondItem="9SQ-eF-zrD" secondAttribute="bottom" constant="40" id="SrT-ph-fGL"/>
+                <constraint firstItem="41Y-pF-v9v" firstAttribute="width" secondItem="fEH-Ws-HOk" secondAttribute="width" id="UfO-e0-TX3"/>
+                <constraint firstItem="41Y-pF-v9v" firstAttribute="leading" secondItem="fEH-Ws-HOk" secondAttribute="trailing" constant="25" id="bFa-gk-PER"/>
+                <constraint firstItem="41Y-pF-v9v" firstAttribute="centerY" secondItem="fEH-Ws-HOk" secondAttribute="centerY" id="hAy-7E-lWX"/>
+                <constraint firstAttribute="trailing" secondItem="9rp-o1-rdj" secondAttribute="trailing" constant="20" id="jpu-fK-bPT"/>
+                <constraint firstItem="41Y-pF-v9v" firstAttribute="height" secondItem="fEH-Ws-HOk" secondAttribute="height" id="rYi-Wl-ROD"/>
+                <constraint firstItem="9SQ-eF-zrD" firstAttribute="top" secondItem="9rp-o1-rdj" secondAttribute="bottom" constant="5" id="uq0-eC-Eae"/>
+                <constraint firstAttribute="trailing" secondItem="41Y-pF-v9v" secondAttribute="trailing" constant="25" id="wL6-p5-9HQ"/>
+                <constraint firstItem="JnF-n0-MbO" firstAttribute="top" secondItem="7fV-wy-ESK" secondAttribute="top" constant="30" id="x5i-cS-pSs"/>
+                <constraint firstItem="9rp-o1-rdj" firstAttribute="top" secondItem="JnF-n0-MbO" secondAttribute="bottom" constant="20" id="xQ3-Dv-1VE"/>
+                <constraint firstItem="41Y-pF-v9v" firstAttribute="leading" secondItem="fEH-Ws-HOk" secondAttribute="trailing" constant="25" id="xV7-ae-BBa"/>
+                <constraint firstItem="9SQ-eF-zrD" firstAttribute="leading" secondItem="7fV-wy-ESK" secondAttribute="leading" constant="20" id="yX5-gt-KNN"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="homeBtn" destination="fEH-Ws-HOk" id="gpj-vR-5YT"/>
+                <outlet property="personBtn" destination="41Y-pF-v9v" id="a4M-bG-gXt"/>
+            </connections>
+            <point key="canvasLocation" x="116.5" y="77.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="link_button_02" width="170" height="34"/>
+        <image name="u11" width="178" height="178"/>
+    </resources>
+</document>

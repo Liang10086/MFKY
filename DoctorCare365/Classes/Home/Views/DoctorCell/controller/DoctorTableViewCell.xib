@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="doctorCell" rowHeight="39" id="kMr-XN-FPz" customClass="DoctorTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="205"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kMr-XN-FPz" id="ZPM-72-3wR">
+                <rect key="frame" x="0.0" y="0.0" width="343" height="204"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yeZ-es-VNN" userLabel="表识">
+                        <rect key="frame" x="0.0" y="0.0" width="6" height="27"/>
+                        <color key="backgroundColor" red="0.47058823529999999" green="0.83137254900000002" blue="0.82745098039999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="etT-Bp-oc6"/>
+                            <constraint firstAttribute="width" constant="6" id="ltx-BW-9VC"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名医通" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b43-St-PlF">
+                        <rect key="frame" x="14" y="0.0" width="51" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zeM-Sd-4ke" userLabel="分割线">
+                        <rect key="frame" x="0.0" y="27" width="343" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Icn-R2-qQK"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fOg-Nh-KCG">
+                        <rect key="frame" x="0.0" y="28" width="22" height="176"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ko4-bT-QWM">
+                        <rect key="frame" x="161" y="28" width="21" height="176"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YAr-0a-vV5">
+                        <rect key="frame" x="321" y="28" width="22" height="176"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYN-1Z-gIm">
+                        <rect key="frame" x="22" y="42" width="139" height="41"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="139" id="IAM-bc-lcl"/>
+                            <constraint firstAttribute="width" constant="139" id="WMG-lH-fpz"/>
+                            <constraint firstAttribute="height" constant="41" id="YXW-Lu-9us"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="   血液病" image="icon_4" backgroundImage="link_button_02">
+                            <color key="titleColor" red="0.31372549020000001" green="0.74509803919999995" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="WMG-lH-fpz"/>
+                            </mask>
+                        </variation>
+                        <connections>
+                            <action selector="clickButton:" destination="kMr-XN-FPz" eventType="touchUpInside" id="uKu-Wf-iGl"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9kN-Q1-iuh">
+                        <rect key="frame" x="182" y="42" width="139" height="41"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="41" id="JNq-xJ-bra"/>
+                            <constraint firstAttribute="width" constant="139" id="dKS-lV-9AS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="   肿瘤科" image="icon_1" backgroundImage="link_button_02">
+                            <color key="titleColor" red="0.31372549020000001" green="0.74509803919999995" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="clickButton:" destination="kMr-XN-FPz" eventType="touchUpInside" id="Oyp-H4-rwp"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMc-ao-KfY">
+                        <rect key="frame" x="22" y="96" width="139" height="41"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="   心血管" image="icon_2" backgroundImage="link_button_02">
+                            <color key="titleColor" red="0.31372549020000001" green="0.74509803919999995" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="clickButton:" destination="kMr-XN-FPz" eventType="touchUpInside" id="SC0-gi-poI"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2o-XU-v2Z">
+                        <rect key="frame" x="182" y="96" width="139" height="41"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="    神经科" image="icon_3" backgroundImage="link_button_02">
+                            <color key="titleColor" red="0.31372549020000001" green="0.74509803919999995" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="clickButton:" destination="kMr-XN-FPz" eventType="touchUpInside" id="9CH-hc-ILK"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NNe-Rw-OBX">
+                        <rect key="frame" x="22" y="150" width="139" height="41"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="    骨科病" image="icon_5" backgroundImage="link_button_02">
+                            <color key="titleColor" red="0.31372549020000001" green="0.74509803919999995" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="clickButton:" destination="kMr-XN-FPz" eventType="touchUpInside" id="eLQ-GL-Z52"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lWg-Zo-n96">
+                        <rect key="frame" x="182" y="150" width="139" height="41"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title=" 公益宣传" image="icon_6" backgroundImage="按钮正常状态">
+                            <color key="titleColor" red="0.31372549019607843" green="0.74509803921568629" blue="0.73725490196078436" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="clickButton:" destination="kMr-XN-FPz" eventType="touchUpInside" id="dGa-Ad-ayf"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="c2o-XU-v2Z" firstAttribute="leading" secondItem="Ko4-bT-QWM" secondAttribute="trailing" id="0gQ-y4-qiD"/>
+                    <constraint firstItem="fOg-Nh-KCG" firstAttribute="top" secondItem="zeM-Sd-4ke" secondAttribute="bottom" id="1ZS-al-Uhl"/>
+                    <constraint firstAttribute="trailing" secondItem="YAr-0a-vV5" secondAttribute="trailing" id="2hs-gO-Cm9"/>
+                    <constraint firstAttribute="trailing" secondItem="zeM-Sd-4ke" secondAttribute="trailing" id="34q-Xf-Xmt"/>
+                    <constraint firstItem="Ko4-bT-QWM" firstAttribute="width" secondItem="fOg-Nh-KCG" secondAttribute="width" id="42B-C1-70z"/>
+                    <constraint firstItem="AMc-ao-KfY" firstAttribute="height" secondItem="PYN-1Z-gIm" secondAttribute="height" id="5Af-uS-gPS"/>
+                    <constraint firstAttribute="bottom" secondItem="fOg-Nh-KCG" secondAttribute="bottom" id="5WY-ay-nEY"/>
+                    <constraint firstItem="9kN-Q1-iuh" firstAttribute="top" secondItem="zeM-Sd-4ke" secondAttribute="bottom" constant="14" id="8Bd-ah-abs"/>
+                    <constraint firstItem="YAr-0a-vV5" firstAttribute="top" secondItem="zeM-Sd-4ke" secondAttribute="bottom" id="9b3-Oy-78G"/>
+                    <constraint firstItem="AMc-ao-KfY" firstAttribute="width" secondItem="PYN-1Z-gIm" secondAttribute="width" id="Azk-MD-TKm"/>
+                    <constraint firstItem="NNe-Rw-OBX" firstAttribute="width" secondItem="AMc-ao-KfY" secondAttribute="width" id="C2R-Ir-1yv"/>
+                    <constraint firstItem="lWg-Zo-n96" firstAttribute="width" secondItem="NNe-Rw-OBX" secondAttribute="width" id="CBM-sD-wNu"/>
+                    <constraint firstItem="Ko4-bT-QWM" firstAttribute="centerX" secondItem="ZPM-72-3wR" secondAttribute="centerX" id="DkA-qi-maM"/>
+                    <constraint firstItem="YAr-0a-vV5" firstAttribute="width" secondItem="fOg-Nh-KCG" secondAttribute="width" id="FyC-p4-uQg"/>
+                    <constraint firstItem="b43-St-PlF" firstAttribute="leading" secondItem="yeZ-es-VNN" secondAttribute="trailing" constant="8" id="JRj-4x-Ur4"/>
+                    <constraint firstItem="YAr-0a-vV5" firstAttribute="leading" secondItem="lWg-Zo-n96" secondAttribute="trailing" id="LYa-Uf-dDd"/>
+                    <constraint firstItem="Ko4-bT-QWM" firstAttribute="leading" secondItem="AMc-ao-KfY" secondAttribute="trailing" id="Luh-65-EQ7"/>
+                    <constraint firstItem="lWg-Zo-n96" firstAttribute="leading" secondItem="Ko4-bT-QWM" secondAttribute="trailing" id="NKL-9H-XaM"/>
+                    <constraint firstItem="AMc-ao-KfY" firstAttribute="leading" secondItem="fOg-Nh-KCG" secondAttribute="trailing" id="PAC-Iq-mMn"/>
+                    <constraint firstItem="AMc-ao-KfY" firstAttribute="top" secondItem="PYN-1Z-gIm" secondAttribute="bottom" constant="13" id="RK6-6I-ZzG"/>
+                    <constraint firstItem="NNe-Rw-OBX" firstAttribute="height" secondItem="AMc-ao-KfY" secondAttribute="height" id="VLv-On-GcS"/>
+                    <constraint firstItem="c2o-XU-v2Z" firstAttribute="height" secondItem="9kN-Q1-iuh" secondAttribute="height" id="VNz-aP-qKQ"/>
+                    <constraint firstItem="9kN-Q1-iuh" firstAttribute="leading" secondItem="Ko4-bT-QWM" secondAttribute="trailing" id="Vk1-k9-3z3"/>
+                    <constraint firstItem="b43-St-PlF" firstAttribute="top" secondItem="ZPM-72-3wR" secondAttribute="top" id="YUe-Tq-9xS"/>
+                    <constraint firstItem="yeZ-es-VNN" firstAttribute="top" secondItem="ZPM-72-3wR" secondAttribute="top" id="ZsS-Cb-Vzj"/>
+                    <constraint firstItem="yeZ-es-VNN" firstAttribute="leading" secondItem="ZPM-72-3wR" secondAttribute="leading" id="dyn-bP-qJi"/>
+                    <constraint firstItem="NNe-Rw-OBX" firstAttribute="leading" secondItem="fOg-Nh-KCG" secondAttribute="trailing" id="dzu-Nn-Nbl"/>
+                    <constraint firstItem="fOg-Nh-KCG" firstAttribute="leading" secondItem="ZPM-72-3wR" secondAttribute="leading" id="eAK-3p-P9x"/>
+                    <constraint firstItem="Ko4-bT-QWM" firstAttribute="leading" secondItem="PYN-1Z-gIm" secondAttribute="trailing" id="ePf-xc-Vah"/>
+                    <constraint firstItem="zeM-Sd-4ke" firstAttribute="leading" secondItem="ZPM-72-3wR" secondAttribute="leading" id="fkJ-0X-jlC"/>
+                    <constraint firstItem="YAr-0a-vV5" firstAttribute="leading" secondItem="c2o-XU-v2Z" secondAttribute="trailing" id="gpp-ru-MuP"/>
+                    <constraint firstItem="Ko4-bT-QWM" firstAttribute="top" secondItem="zeM-Sd-4ke" secondAttribute="bottom" id="i8c-mT-350"/>
+                    <constraint firstItem="PYN-1Z-gIm" firstAttribute="top" secondItem="zeM-Sd-4ke" secondAttribute="bottom" constant="14" id="kc9-PE-V96"/>
+                    <constraint firstItem="YAr-0a-vV5" firstAttribute="leading" secondItem="9kN-Q1-iuh" secondAttribute="trailing" id="ofE-Qq-KDh"/>
+                    <constraint firstAttribute="bottom" secondItem="Ko4-bT-QWM" secondAttribute="bottom" id="qQC-MG-yum"/>
+                    <constraint firstItem="PYN-1Z-gIm" firstAttribute="leading" secondItem="fOg-Nh-KCG" secondAttribute="trailing" id="qSW-bG-oWH"/>
+                    <constraint firstItem="zeM-Sd-4ke" firstAttribute="top" secondItem="yeZ-es-VNN" secondAttribute="bottom" id="qbn-DT-VrV"/>
+                    <constraint firstItem="c2o-XU-v2Z" firstAttribute="width" secondItem="9kN-Q1-iuh" secondAttribute="width" id="s3M-Ph-Low"/>
+                    <constraint firstItem="lWg-Zo-n96" firstAttribute="height" secondItem="NNe-Rw-OBX" secondAttribute="height" id="ty0-V6-f7W"/>
+                    <constraint firstItem="Ko4-bT-QWM" firstAttribute="leading" secondItem="NNe-Rw-OBX" secondAttribute="trailing" id="udC-kW-ral"/>
+                    <constraint firstAttribute="bottom" secondItem="YAr-0a-vV5" secondAttribute="bottom" id="uuC-Gs-bQ5"/>
+                    <constraint firstItem="NNe-Rw-OBX" firstAttribute="top" secondItem="AMc-ao-KfY" secondAttribute="bottom" constant="13" id="uyX-sH-vVU"/>
+                    <constraint firstItem="c2o-XU-v2Z" firstAttribute="top" secondItem="9kN-Q1-iuh" secondAttribute="bottom" constant="13" id="uz3-00-Fol"/>
+                    <constraint firstItem="lWg-Zo-n96" firstAttribute="top" secondItem="NNe-Rw-OBX" secondAttribute="top" id="w80-Dh-J1r"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="678.5" y="-340.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_1" width="52" height="52"/>
+        <image name="icon_2" width="52" height="52"/>
+        <image name="icon_3" width="52" height="52"/>
+        <image name="icon_4" width="53" height="52"/>
+        <image name="icon_5" width="52" height="52"/>
+        <image name="icon_6" width="52" height="53"/>
+        <image name="link_button_02" width="170" height="34"/>
+        <image name="按钮正常状态" width="57" height="18"/>
+    </resources>
+</document>

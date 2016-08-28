@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5df5cb0d-b503-cd4f-bda7-3cca11cd0079++4593",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "5df5cb0d-b503-cd4f-bda7-3cca11cd0079++4593" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5df5cb0d-b503-cd4f-bda7-3cca11cd0079++4593" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BB98C022-67F5-4E9A-AD5C-94190A3A21B9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5df5cb0d-b503-cd4f-bda7-3cca11cd0079++4593" : "DoctorCare365\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DoctorCare365",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DoctorCare365.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.15.254:8443\/svn\/group06",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5df5cb0d-b503-cd4f-bda7-3cca11cd0079++4593"
+    }
+  ]
+}

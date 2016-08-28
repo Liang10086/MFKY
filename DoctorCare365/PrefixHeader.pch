@@ -1,0 +1,37 @@
+//
+//  PrefixHeader.pch
+//  DoctorCare365
+//
+//  Created by ios on 16/7/27.
+//  Copyright © 2016年 ios. All rights reserved.
+//
+#import <AFNetworking.h>
+#import <UIImageView+WebCache.h>
+#import <Masonry.h>
+#import <TPKeyboardAvoidingCollectionView.h>
+#import <TPKeyboardAvoidingScrollView.h>
+#import <TPKeyboardAvoidingTableView.h>
+#import <MMDrawerController.h>
+#import "HexColors.h"
+#import "NetWorkTool.h"
+#import "DCsqLite.h"
+
+#ifdef DEBUG
+#define DCLog(...) NSLog(__VA_ARGS__)
+#else
+#define DCLog(...)
+#endif
+
+
+
+//Left跳转界面使用的宏定义
+#define leftToSetting 1
+#define leftToOpinion 2
+#define leftToLogin 3
+#define leftToRegister 4
+
+//找科室与找医院相互跳转
+#define DepartmentToHospital 10
+#define HospitalToDepartment 9
+
+

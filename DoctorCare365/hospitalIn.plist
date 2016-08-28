@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>icon</key>
+		<string>北京普详中医肿瘤医院</string>
+		<key>name</key>
+		<string>北京协和医院</string>
+		<key>rank</key>
+		<string>二级甲等</string>
+		<key>address</key>
+		<string>北京市东城区帅府园一号 1km</string>
+		<key>addressIcon</key>
+		<string>u86</string>
+		<key>btnImage</key>
+		<string>u28</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>北京市仁和医院</string>
+		<key>name</key>
+		<string>北京市仁和医院</string>
+		<key>rank</key>
+		<string>二级甲等</string>
+		<key>address</key>
+		<string>北京市东城区帅府园一号 1km</string>
+		<key>addressIcon</key>
+		<string>u86</string>
+		<key>btnImage</key>
+		<string>u28</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>北京协和医院</string>
+		<key>name</key>
+		<string>北京协和医院</string>
+		<key>rank</key>
+		<string>二级甲等</string>
+		<key>address</key>
+		<string>北京市东城区帅府园一号 1km</string>
+		<key>addressIcon</key>
+		<string>u86</string>
+		<key>btnImage</key>
+		<string>u28</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>阜外心血管病医院</string>
+		<key>name</key>
+		<string>阜外心血管病医院</string>
+		<key>rank</key>
+		<string>二级甲等</string>
+		<key>address</key>
+		<string>北京市东城区帅府园一号 1km</string>
+		<key>addressIcon</key>
+		<string>u86</string>
+		<key>btnImage</key>
+		<string>u28</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>医科院肿瘤医院</string>
+		<key>name</key>
+		<string>医科院肿瘤医院</string>
+		<key>rank</key>
+		<string>二级甲等</string>
+		<key>address</key>
+		<string>北京市东城区帅府园一号 1km</string>
+		<key>addressIcon</key>
+		<string>u86</string>
+		<key>btnImage</key>
+		<string>u28</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>中国中医科学院</string>
+		<key>name</key>
+		<string>中国中医科学院</string>
+		<key>rank</key>
+		<string>二级甲等</string>
+		<key>address</key>
+		<string>北京市东城区帅府园一号 1km</string>
+		<key>addressIcon</key>
+		<string>u86</string>
+		<key>btnImage</key>
+		<string>u28</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>北京普详中医肿瘤医院</string>
+		<key>name</key>
+		<string>北京医学院</string>
+		<key>rank</key>
+		<string>二级甲等</string>
+		<key>address</key>
+		<string>北京市东城区帅府园一号 1km</string>
+		<key>addressIcon</key>
+		<string>u86</string>
+		<key>btnImage</key>
+		<string>u28</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>北京市仁和医院</string>
+		<key>name</key>
+		<string>北京市仁和医院</string>
+		<key>rank</key>
+		<string>二级甲等</string>
+		<key>address</key>
+		<string>北京市东城区帅府园一号 1km</string>
+		<key>addressIcon</key>
+		<string>u86</string>
+		<key>btnImage</key>
+		<string>u28</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>北京协和医院</string>
+		<key>name</key>
+		<string>北京协和医院</string>
+		<key>rank</key>
+		<string>二级甲等</string>
+		<key>address</key>
+		<string>北京市东城区帅府园一号 1km</string>
+		<key>addressIcon</key>
+		<string>u86</string>
+		<key>btnImage</key>
+		<string>u28</string>
+	</dict>
+</array>
+</plist>
